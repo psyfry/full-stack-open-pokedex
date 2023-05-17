@@ -1,6 +1,6 @@
 on:
     schedule:
-        - cron: "20 * * * *"
+        - cron: "30 1 * * 1"
 jobs:
     schedule_health_check:
         runs-on: ubuntu-latest
